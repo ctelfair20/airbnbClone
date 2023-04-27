@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import ProfileBtn from '../src/components/ProfileBtn'
 
 import styles from '@/pages/index.module.css'
 
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <ProfileBtn />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
