@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import ProfileBtn from '../src/components/ProfileBtn'
+import ProfileBtn from '../src/components/profileBtn/ProfileBtn'
 
 import styles from '@/pages/index.module.css'
 
