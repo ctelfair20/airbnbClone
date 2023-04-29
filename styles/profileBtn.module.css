@@ -1,3 +1,17 @@
+.profile-button-container {
+  display: flex;
+  background-color: aqua;
+  padding: 20px;
+}
+
+.profile-button {
+  height: 30px;
+  width: 60px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+
 .profile-button:hover {
-  box-shadow: 2px 2px 2px gray
+  box-shadow: 2px 2px 2px gray;
 }
