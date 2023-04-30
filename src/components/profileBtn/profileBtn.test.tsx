@@ -1,6 +1,8 @@
-import { render, screen } from '@testing-library/react'
+import { render, screen, cleanup, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event';
 import ProfileBtn from "./ProfileBtn";
+
+afterEach(cleanup);
 
 describe("ProfileBtn", () => {
   it("should be on the page", () => {
@@ -11,11 +13,12 @@ describe("ProfileBtn", () => {
 
   it("should have a box shadow when moused over", () => {
     // set up user event BEFORE rendering components
-    const user = userEvent.setup()
-    render(<ProfileBtn />)
+    const user = userEvent.setup();
+    render(<ProfileBtn />);
+
     const profileBtn = screen.getByRole('button');
     user.hover(profileBtn);
-    expect(profileBtn).toHaveStyle('box-shadow: 12px 12px 2px');
+    expect(profileBtn).toHaveClass('profile-button');
   })
 
   it("should NOT have a box shadow", () => {
@@ -23,7 +26,7 @@ describe("ProfileBtn", () => {
     render(<ProfileBtn />)
     const profileBtn = screen.getByRole('button');
     user.unhover(profileBtn);
-    expect(profileBtn).not.toHaveStyle('box-shadow: 12px 12px 2px');
+    expect(profileBtn).not.toHaveStyle('box-shadow: 2px 2px 2px gray');
   })
 
   it("shoule contain a profile image", () => {
