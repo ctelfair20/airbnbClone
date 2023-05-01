@@ -9,9 +9,12 @@ const ProfileBtn = () => {
       <button
         className={styles['profile-button']}
       >
-        {/* no need to wrap fontawesome icons in next image components */}
-        <FontAwesomeIcon icon={faBars} className={styles['icon']} />
-        <FontAwesomeIcon icon={faCircleUser} className={styles['icon']} />
+        {/* This is how to add multiple classes to an element in next.js */}
+        <div className={styles['profile-button-icon-container']}>
+          {/* no need to wrap fontawesome icons in next image components */}
+          <FontAwesomeIcon icon={faBars} className={`${styles['icon']} ${styles['menu']}`} />
+          <FontAwesomeIcon icon={faCircleUser} className={`${styles['icon']} ${styles['profile-picture']}`} />
+        </div>
       </button>
     </div>
   );

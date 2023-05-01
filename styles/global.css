@@ -1,6 +1,6 @@
 :root {
   /* These variables can be used in all modules as if they were defined there. */
-  --icon-color: #757071;
+  --icon-color: #717171;
 }
 
 html,
@@ -15,14 +15,14 @@ body {
   box-sizing: border-box;
 }
 
-main {
+/* main {
   padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 footer {
   width: 100%;
