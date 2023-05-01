@@ -10,6 +10,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        {/* <script src="https://kit.fontawesome.com/9001910860.js" crossOrigin="anonymous"></script> */}
       </Head>
 
       <main>
