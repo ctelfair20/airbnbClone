@@ -28,7 +28,7 @@ describe("ProfileBtn", () => {
     user.unhover(profileBtn);
     expect(profileBtn).not.toHaveStyle('box-shadow: 2px 2px 2px gray');
   })
-
+  // TODO: make these test pass!
   it("shoule contain a profile image", () => {
     render(<ProfileBtn />)
     const profilePic = screen.getByRole('img', { name: 'profile pictue' });
