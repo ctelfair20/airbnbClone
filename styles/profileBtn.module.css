@@ -1,3 +1,8 @@
+.icon {
+  /* this custom variable was created in the global stylesheet */
+  color: var(--icon-color);
+}
+
 .profile-button-container {
   display: flex;
   background-color: aqua;
@@ -9,7 +14,7 @@
   width: 70px;
   background: transparent;
   border-radius: 21px;
-  border: 1px solid grey;
+  border: 1px solid rgb(199, 196, 196);
   cursor: pointer;
   transition: box-shadow 0.2s ease;
 }
