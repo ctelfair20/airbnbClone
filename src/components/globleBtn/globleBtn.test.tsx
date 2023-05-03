@@ -3,7 +3,7 @@ import userEvent from '@testing-library/user-event'
 import GlobleBtn from './GlobleBtn'
 
 afterEach(cleanup)
-
+// TODO: the globle should be a button element and the globle icon should sit inside of the button
 describe('GlobleBtn', () => {
   it('should be in the document', () => {
     render(<GlobleBtn />)
