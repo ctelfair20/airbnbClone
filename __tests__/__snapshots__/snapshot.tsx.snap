@@ -10,6 +10,7 @@ exports[`renders homepage unchanged 1`] = `
         class="profile-button-container"
       >
         <button
+          aria-label="profile-button"
           class="profile-button"
         >
           <div
@@ -17,6 +18,7 @@ exports[`renders homepage unchanged 1`] = `
           >
             <svg
               aria-hidden="true"
+              aria-label="menu"
               class="svg-inline--fa fa-bars icon menu"
               data-icon="bars"
               data-prefix="fas"
@@ -32,6 +34,7 @@ exports[`renders homepage unchanged 1`] = `
             </svg>
             <svg
               aria-hidden="true"
+              aria-label="profile-picture"
               class="svg-inline--fa fa-circle-user icon profile-picture"
               data-icon="circle-user"
               data-prefix="fas"
