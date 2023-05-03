@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import ProfileBtn from '../src/components/ProfileBtn'
+import ProfileBtn from '../src/components/profileBtn/ProfileBtn'
 
 import styles from '@/pages/index.module.css'
 
@@ -10,6 +10,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <script src="https://kit.fontawesome.com/9001910860.js" crossOrigin="anonymous"></script>
       </Head>
 
       <main>

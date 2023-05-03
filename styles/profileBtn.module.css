@@ -1,0 +1,43 @@
+/* TODO: make profile pic and menu the right size */
+.icon {
+  /* this custom variable was created in the global stylesheet */
+  color: var(--icon-color);
+}
+
+.profile-button-container {
+  display: flex;
+  background-color: aqua;
+  padding: 20px;
+}
+
+.profile-button {
+  height: 30px;
+  width: 58px;
+  background: transparent;
+  border-radius: 21px;
+  border: 1px solid rgb(199, 196, 196);
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.profile-button-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 5px; */
+}
+
+.profile-picture {
+  height: 20px;
+  width: 20px;
+}
+
+.menu {
+  padding: 3px;
+  width: 10px;
+  height: auto;
+}
+
+.profile-button:hover {
+  box-shadow: 0px 2px 4px gray;
+}
