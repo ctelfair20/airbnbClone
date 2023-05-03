@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import ProfileBtn from '../src/components/profileBtn/ProfileBtn'
-import GlobleBtn from 'src/components/globleBtn/GlobleBtn'
+import GlobeBtn from 'src/components/globeBtn/GlobeBtn'
 
 import styles from '@/pages/index.module.css'
 
@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <ProfileBtn />
         {/* TODO: resize globe */}
-        <GlobleBtn />
+        <GlobeBtn />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
