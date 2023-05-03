@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
-const GlobleBtn = () => {
+const GlobeBtn = () => {
   return (
     <div>
       <FontAwesomeIcon icon={faGlobe} />
@@ -9,4 +9,4 @@ const GlobleBtn = () => {
   );
 }
 
-export default GlobleBtn;
+export default GlobeBtn;
