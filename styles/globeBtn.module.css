@@ -1,0 +1,12 @@
+.shaded-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+  height: 40px;
+  width: 40px;
+}
+
+.shaded-container:hover {
+  background-color: var(--shade-color);
+}
