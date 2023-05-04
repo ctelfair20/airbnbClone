@@ -7,7 +7,7 @@ afterEach(cleanup);
 describe("ProfileBtn", () => {
   it("should be on the page", () => {
     render(<ProfileBtn />)
-    const profileBtn = screen.getByRole('button');
+    const profileBtn = screen.getByRole('button', { name: 'profile-button' });
     expect(profileBtn).toBeInTheDocument();
   })
 
@@ -16,7 +16,7 @@ describe("ProfileBtn", () => {
     const user = userEvent.setup();
     render(<ProfileBtn />);
 
-    const profileBtn = screen.getByRole('button');
+    const profileBtn = screen.getByRole('button', { name: 'profile-button' });
     user.hover(profileBtn);
     expect(profileBtn).toHaveClass('profile-button');
   })
@@ -24,7 +24,7 @@ describe("ProfileBtn", () => {
   it("should NOT have a box shadow", () => {
     const user = userEvent.setup()
     render(<ProfileBtn />)
-    const profileBtn = screen.getByRole('button');
+    const profileBtn = screen.getByRole('button', { name: 'profile-button' });
     user.unhover(profileBtn);
     expect(profileBtn).not.toHaveStyle('box-shadow: 2px 2px 2px gray');
   })
