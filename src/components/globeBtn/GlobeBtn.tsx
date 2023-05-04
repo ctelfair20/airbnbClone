@@ -4,7 +4,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 const GlobeBtn = () => {
   return (
     <div>
-      <FontAwesomeIcon icon={faGlobe} />
+      <FontAwesomeIcon icon={faGlobe} className='icon' />
     </div>
   );
 }

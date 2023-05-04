@@ -1,9 +1,4 @@
 /* TODO: make profile pic and menu the right size */
-.icon {
-  /* this custom variable was created in the global stylesheet */
-  color: var(--icon-color);
-}
-
 .profile-button-container {
   display: flex;
   background-color: aqua;

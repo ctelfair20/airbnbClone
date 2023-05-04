@@ -15,6 +15,11 @@ body {
   box-sizing: border-box;
 }
 
+.icon {
+  /* this custom variable was created in the global stylesheet */
+  color: var(--icon-color);
+}
+
 /* main {
   padding: 5rem 0;
   flex: 1;
