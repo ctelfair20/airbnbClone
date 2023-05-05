@@ -16,11 +16,6 @@ body {
   box-sizing: border-box;
 }
 
-.icon {
-  /* this custom variable was created in the global stylesheet */
-  color: var(--icon-color);
-}
-
 /* main {
   padding: 5rem 0;
   flex: 1;
@@ -61,4 +56,21 @@ code {
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+/* Share styling */
+.icon {
+  /* this custom variable was created in the global stylesheet */
+  color: var(--icon-color);
+}
+
+.shaded-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+}
+
+.shaded-container:hover {
+  background-color: var(--shade-color);
 }

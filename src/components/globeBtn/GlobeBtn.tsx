@@ -5,7 +5,7 @@ import styles from '../../../styles/globeBtn.module.css'
 
 const GlobeBtn = () => {
   return (
-    <div className={styles['shaded-container']}>
+    <div className={`${styles['globe-container']} shaded-container`}>
       <FontAwesomeIcon
         icon={faGlobe}
         className='icon'

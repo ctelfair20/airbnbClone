@@ -1,7 +1,9 @@
+import styles from '../../../styles/airbnbYourHomeBtn.module.css'
+
 const AirbnbYourHomeBtn = () => {
   return (
-    <div>
-      Airbnb your home
+    <div className={`${styles['airbnb-button-container']} shaded-container`}>
+      <span>Airbnb your home</span>
     </div>
   );
 }

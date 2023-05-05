@@ -1,12 +1,8 @@
-.shaded-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 22px;
+.globe-container {
   height: 40px;
   width: 40px;
 }
 
-.shaded-container:hover {
+/* .shaded-container:hover {
   background-color: var(--shade-color);
-}
+} */
