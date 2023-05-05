@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import ProfileBtn from '../src/components/profileBtn/ProfileBtn'
 import GlobeBtn from '../src/components/globeBtn/GlobeBtn'
-import AirbnbYourHomeBtn from 'src/components/airbnbYourHomeBtn/airbnbYourHomeBtn'
+import AirbnbYourHomeBtn from '../src/components/airbnbYourHomeBtn/airbnbYourHomeBtn'
 
 import styles from '@/pages/index.module.css'
 
