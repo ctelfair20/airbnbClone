@@ -1,10 +1,4 @@
 /* TODO: make profile pic and menu the right size */
-.profile-button-container {
-  display: flex;
-  background-color: aqua;
-  padding: 20px;
-}
-
 .profile-button {
   height: 30px;
   width: 58px;
