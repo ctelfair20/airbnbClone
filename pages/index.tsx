@@ -1,9 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Logo from 'src/components/logo/Logo'
-import ProfileBtn from '../src/components/profileBtn/ProfileBtn'
-import GlobeBtn from '../src/components/globeBtn/GlobeBtn'
-import AirbnbYourHomeBtn from '../src/components/airbnbYourHomeBtn/airbnbYourHomeBtn'
 
 import styles from '@/pages/index.module.css'
 
@@ -17,10 +13,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <Logo />
-        <ProfileBtn />
-        <GlobeBtn />
-        <AirbnbYourHomeBtn />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
