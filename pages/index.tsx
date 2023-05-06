@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Navbar from 'src/components/navbar/Navbar'
 
 import styles from '@/pages/index.module.css'
 
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <Navbar />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>

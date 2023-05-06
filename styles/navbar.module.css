@@ -1,3 +1,13 @@
-.nav-right {}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
 
-.nav-left {}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}

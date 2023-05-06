@@ -1,18 +1,20 @@
-import AirbnbYourHomeBtn from "../airbnbYourHomeBtn/airbnbYourHomeBtn";
-import GlobeBtn from "../globeBtn/GlobeBtn";
-import Logo from "../logo/Logo";
-import ProfileBtn from "../profileBtn/ProfileBtn";
+import AirbnbYourHomeBtn from '../airbnbYourHomeBtn/airbnbYourHomeBtn'
+import GlobeBtn from '../globeBtn/GlobeBtn'
+import Logo from '../logo/Logo'
+import ProfileBtn from '../profileBtn/ProfileBtn'
+
+import styles from '../../../styles/navbar.module.css'
 
 const Navbar = () => {
   return (
-    <nav>
-      <div className="nav-right">
+    <nav className={styles["navbar"]}>
+      <div className={styles["nav-left"]}>
         <Logo />
       </div>
-      <div className="nav-left">
-        <ProfileBtn />
-        <GlobeBtn />
+      <div className={styles["nav-right"]}>
         <AirbnbYourHomeBtn />
+        <GlobeBtn />
+        <ProfileBtn />
       </div>
     </nav>
   );
