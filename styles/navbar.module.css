@@ -1,6 +1,10 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 7px;
+  padding-top: 7px;
 }
 
 .nav-right {
