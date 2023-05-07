@@ -1,5 +1,10 @@
 .globe-container {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   margin-right: 5px;
+}
+
+.globe {
+  height: 12px;
+  width: 12px;
 }

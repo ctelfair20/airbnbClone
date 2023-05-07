@@ -8,7 +8,7 @@ const GlobeBtn = () => {
     <div className={`${styles['globe-container']} shaded-container`}>
       <FontAwesomeIcon
         icon={faGlobe}
-        className='icon'
+        className={`${styles['globe']} icon`}
         aria-label='globeIcon'
       />
     </div>

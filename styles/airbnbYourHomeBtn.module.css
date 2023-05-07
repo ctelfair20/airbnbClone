@@ -1,4 +1,10 @@
 .airbnb-button-container {
-  height: 40px;
-  width: 155px;
+  height: 32px;
+  width: 120px;
+}
+
+.airbnb-your-home {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
 }
