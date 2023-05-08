@@ -5,8 +5,8 @@ import styles from '../../../styles/arrowBtn.module.css'
 
 const ArrowBtn = () => {
   return (
-    <div className="arrow-container">
-      <FontAwesomeIcon icon={faArrowRight} />
+    <div className={styles['arrow-container']}>
+      <FontAwesomeIcon icon={faArrowRight} className={styles['arrow']} />
     </div>
   );
 }
