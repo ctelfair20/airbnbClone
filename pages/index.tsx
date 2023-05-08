@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from 'src/components/navbar/Navbar'
+import ArrowBtn from '../src/components/arrowBtn/ArrowBtn'
 
 import styles from '@/pages/index.module.css'
 
