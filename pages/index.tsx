@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Navbar from 'src/components/navbar/Navbar'
 import ArrowBtn from '../src/components/arrowBtn/ArrowBtn'
 import FilterBtn from '../src/components/filterBtn/FilterBtn'
+import OptionsBar from 'src/components/optionsBar/OptionsBar'
 
 import styles from '@/pages/index.module.css'
 
@@ -17,6 +18,7 @@ export default function Home() {
 
       <main>
         <Navbar />
+        <OptionsBar />
         <FilterBtn />
         <ArrowBtn />
         <h1 className={styles.title}>
