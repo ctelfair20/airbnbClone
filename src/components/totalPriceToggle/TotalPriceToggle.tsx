@@ -6,12 +6,13 @@ import styles from '../../../styles/totalPriceToggle.module.css'
 const TotaLPriceToggle = () => {
   return (
     <div className={styles['price-toggle-container']}>
-      <span className={styles['label']}>Display total price</span>
-      <div>
-        <span className={styles['sub-label']}></span>
+      <div className={styles['title-container']}>
+        <span className={styles['label']}>Display total price</span>
+        <div className={styles['sub-label-container']}>
+          <span className={styles['sub-label']}>Includes all fees, before taxes</span>
+        </div>
       </div>
       <FontAwesomeIcon icon={faToggleOn} className={styles['toggle-icon']} />
-
     </div>
   );
 }
