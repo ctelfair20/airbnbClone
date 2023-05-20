@@ -1,6 +1,11 @@
+import Heart from '../heart/Heart'
+
 const Booking = () => {
   return (
-    <div>BOOKING1</div>
+    <div>
+      <Heart />
+      BOOKING1
+    </div>
   );
 }
 
