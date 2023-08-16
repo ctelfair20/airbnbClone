@@ -4,6 +4,7 @@ import Navbar from 'src/components/navbar/Navbar'
 import OptionsBar from 'src/components/optionsBar/OptionsBar'
 import TotaLPriceToggle from 'src/components/totalPriceToggle/TotalPriceToggle'
 import Booking from '../src/components/booking/Booking'
+import Button from 'src/components/button'
 
 import styles from '@/pages/index.module.css'
 
@@ -18,6 +19,7 @@ export default function Home() {
 
       <main>
         <Navbar />
+        <Button />
         <OptionsBar />
         <TotaLPriceToggle />
         <Booking />
